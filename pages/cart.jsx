@@ -17,36 +17,6 @@ const Cart = () => {
                         <th>Quantity</th>
                         <th>Total</th>
                     </tr>
-
-                    {/* <tr className={styles.tr}>
-                        <td>
-                            <div className={styles.imgContainer}>
-                                <Image
-                                    src="/img/pizza.png"
-                                    layout="fill"
-                                    objectFit="cover"
-                                    alt=""
-                                />
-                            </div>
-                        </td>
-                        <td>
-                            <span className={styles.name}>CORALZO</span>
-                        </td>
-                        <td>
-                            <span className={styles.extras}>
-                                Double ingredient, spicy sauce
-                            </span>
-                        </td>
-                        <td>
-                            <span className={styles.price}>$19.90</span>
-                        </td>
-                        <td>
-                            <span className={styles.quantity}>2</span>
-                        </td>
-                        <td>
-                            <span className={styles.total}>$39.80</span>
-                        </td>
-                    </tr> */}
                     {cart.products.map((product) => (
                         <tr className={styles.tr} key={product._id}>
                             <td>
